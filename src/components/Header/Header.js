@@ -11,6 +11,7 @@ import {
   Div3,
   NavLink,
   SocialIcons,
+  Span,
 } from "./HeaderStyles";
 
 import { DiCssdeck } from "react-icons/di";
