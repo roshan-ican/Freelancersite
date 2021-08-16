@@ -1,21 +1,21 @@
-import React, { useState, useRef, useEffect } from 'react';
-
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+import React, { useEffect, useRef, useState } from 'react';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
-  // const [activeItem, setActiveItem] = useState(0);
-  // const carouselRef = useRef();
+  const [activeItem, setActiveItem] = useState(0);
+  const carouselRef = useRef();
 
-  // const scroll = (node, left) => {
-  //   return node.scrollTo({ left, behavior: 'smooth' });
-  // }
+  const scroll = (node, left) => {
+    return node.scrollTo({ left, behavior: 'smooth' });
+  }
 
-  // const handleClick = (e, i) => {
-  //   e.preventDefault();
+  const handleClick = (e, i) => {
+    e.preventDefault();
 
   //   if (carouselRef.current) {
   //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
@@ -43,9 +43,36 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section id="about">
+      <SectionTitle>
+      About Us
+      </SectionTitle>
+      <SectionText>
+      // add your journey and your milestones
+        The Purpose of 'IM Tech' is to bring our ideas to reality with genuine
+        care for the people & help solving the problems of this World with our
+        awesome apps.
+      </SectionText>
+      <CarouselContainer ref={carouselRef}>
+        <>
+          {TimeLineData.map((item, index) => {
+            <CarouselMobileScrollNode key={index} final={index ===TOTAL_CAROUSEL_COUNT - 1}>
+              <CarouselItem
+                index={index}
+                id={`carousel__item`}
+                active={activeItem}
+                onClick={(e) => handleClick(e, index)}
+                >
+              </CarouselItem>
+              <CarouselItemTitle>
+                {item.year}
+              </CarouselItemTitle>
+              
+            </CarouselMobileScrollNode>
+          })}
+        </>
+      </CarouselContainer>
+    </Section>
   );
 };
 
