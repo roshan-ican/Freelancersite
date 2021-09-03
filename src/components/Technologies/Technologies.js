@@ -21,7 +21,7 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      We both have worked on a range of Technologies in both web and app
+      Individually and in team we have worked on a range of Technologies in both web and app
       development world, Ibrahim our founder is a master at React Native and
       MERN stack, he has years of dedicated experices, and Have built amazing
       apps. Muhammad our co-founder has worked with a range of technologies in
@@ -47,7 +47,7 @@ const Technologies = () => (
           <ListParagraph>
             Experienced with
             <br />
-            Node.js and Databases like MongoDb
+            Node.js / Django and Databases like MongoDb
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -56,9 +56,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>UX/UI Design</ListTitle>
           <ListParagraph>
-            Experienced with
+            Has experience with
             <br />
-            tools like figma
+            tools like Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>

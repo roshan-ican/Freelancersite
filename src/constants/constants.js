@@ -82,9 +82,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started our journey years ago" },
-  { year: 2018, text: "We Worked as a freelance developers" },
-  { year: 2019, text: "We Founded IM TECH in 2021" },
-  { year: 2020, text: "We Shared our projects with the world" },
-  { year: 2021, text: "We Started uploading platforms like playstore" },
+  { year: 2018, text: "Sparked with the the passion to turn ideas into reality" },
+  { year: 2019, text: "Learnt languages like C, C++, HTML, CSS and Javascript in School" },
+  { year: 2020, text: "Learnt Python and Version control and built many of java and Python projects " },
+  { year: 2021, text: "So far have been building reactjs sites and uploaded the apps to playstore with IM Tech" },
 ];

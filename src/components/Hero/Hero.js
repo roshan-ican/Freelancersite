@@ -12,13 +12,14 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        Our Portfolio
+      Hi, I am Roshan
+         <br />
+         Welcome To my Portfolio
       </SectionTitle>
       <SectionText>
-        The purpose of 'IM Tech' is to bring our ideas to reality with genuine
-        care for the people & help solving the problems of this World with our
-        awesome apps.
+        The purpose of my coding Journey is to bring our ideas to reality with genuine
+        care for the people & help solving the problems of this World with the
+        awesome apps and travel and meet amazing people.
       </SectionText>
       <Button
         onClick={() =>
