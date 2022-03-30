@@ -21,12 +21,12 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Individually and in team we have worked on a range of Technologies in both web and app
-      development world, Ibrahim our founder is a master at React Native and
-      MERN stack, he has years of dedicated experices, and Have built amazing
-      apps. Muhammad our co-founder has worked with a range of technologies in
-      web & app development World, Together they have built Back-end to Design
-      of frontend resulting as great Apps.
+      Individually and in team we have worked on a range of Technologies in both
+      web and app development world, we have years of dedicated experices, and
+      have built useful apps. i have worked with a range of technologies in web
+      and app development World together we have built Back-end to Design of
+      frontend resulting as great Apps and Graphic Design, Animations, Motion
+      Graphic and Videography.
     </SectionText>
     <List>
       <ListItem>
@@ -36,7 +36,7 @@ const Technologies = () => (
           <ListParagraph>
             Experienced with
             <br />
-            React native and React.js
+            React native and React.js and Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -47,7 +47,7 @@ const Technologies = () => (
           <ListParagraph>
             Experienced with
             <br />
-            Node.js / Django and Databases like MongoDb
+            Node.js, Mysql, Django and MongoDb
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -58,7 +58,7 @@ const Technologies = () => (
           <ListParagraph>
             Has experience with
             <br />
-            tools like Figma
+            tools like Figma, Photoshop and Premiere Pro
           </ListParagraph>
         </ListContainer>
       </ListItem>

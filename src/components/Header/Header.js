@@ -47,6 +47,9 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
+      <SocialIcons href="https://www.instagram.com/muhammad_roshan_ali">
+        <AiFillInstagram size="3rem" />
+      </SocialIcons>
       <SocialIcons href="https://www.github.com/roshan-ican">
         <AiFillGithub size="3rem" />
       </SocialIcons>

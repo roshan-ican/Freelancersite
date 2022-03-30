@@ -24,7 +24,7 @@ const Projects = () => (
   // This is where we will put all our projects
   <Section nopadding id="projects">
     <SectionDivider />
-    <SectionTitle main>Project Septmember</SectionTitle>
+    <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
